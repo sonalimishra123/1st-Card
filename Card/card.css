@@ -1,0 +1,81 @@
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-color: rgb(222, 246, 241);
+}
+.container{
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+.top-image img{
+    border-radius:15px 15px 0px 0px;
+}
+.card {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  border: 1px solid rgb(180, 176, 176);
+  background-color:white;
+  border-radius:15px;
+  text-align:center;
+}
+.title .title{
+    font-size:30px;
+    font-weight:bold;
+}
+.title p{
+    color:rgb(8, 8, 56);
+}
+.flex{
+    display: flex;
+    margin-left: 50px;
+    width: 350px;
+    justify-content: space-around;
+    background: rgb(242, 242, 246);
+    border-radius: 10px;
+}
+.flex img{
+    padding-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+.flex a{
+    padding-top: 22px;
+}
+.flex p{
+    font-weight: bold;
+    color: rgb(8, 8, 56);
+}
+.a{ 
+    background:none;
+    border:none;
+    text-decoration:none;
+}
+.btn-2{
+    border: 1px solid blue;
+    width: 350px;
+    height: 47px;
+    margin: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow:0px 10px 7px rgb(187, 187, 235);
+    cursor: pointer;
+}
+.btn-3{
+    background:none;
+    border:none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* color :Pale blue: hsl(225, 100%, 94%);
+color :Bright blue: hsl(245, 75%, 52%);
+color :Very pale blue: hsl(225, 100%, 98%)
+color :Desaturated blue: hsl(224, 23%, 55%)
+Dark blue: hsl(223, 47%, 23%) */
